@@ -12,7 +12,7 @@ import DatabaseFactory.*;
 
 public class H2DatabaseTests {
 
-	//static final String DB_URL = "jdbc:h2:file:///C:/Users/sande/eclipse-workspace/TestAutomation.Selenium.Basics/Files/Database";
+	
 	static final String DB_URL = "jdbc:h2:./Files/Database";
 	static final String JDBC_Driver = "org.h2.Driver";
 	static final String USERNAME = "sa";
