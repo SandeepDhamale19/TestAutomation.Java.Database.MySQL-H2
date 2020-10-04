@@ -11,8 +11,7 @@ import DataFactory.ListFunction;
 import DatabaseFactory.DatabaseFunction;
 
 public class MySQLDatabaseTests {
-
-	//static final String DB_URL = "jdbc:h2:file:///C:/Users/sande/eclipse-workspace/TestAutomation.Selenium.Basics/Files/Database";
+	
 		static final String DB_URL = "jdbc:mysql://localhost/AvengersDatabase";
 		static final String JDBC_Driver = "com.mysql.cj.jdbc.Driver";
 		static final String USERNAME = "root";
