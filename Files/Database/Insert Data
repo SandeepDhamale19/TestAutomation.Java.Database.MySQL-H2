@@ -1,0 +1,94 @@
+
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Steven', 'Rogers', 'Captain America', 34581, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Anthony', 'Stark', 'Ironman', 30681, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Peter', 'Parker', 'Spiderman', 43331, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Thor', 'Odinson', 'Thor', 24021, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Benjamin', 'Grimm', 'The Thing', 22551, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Thanos', '', 'The mad Titan', 15661, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Loki', 'Laufeyson', 'Loki', 9851, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Natalia', 'Romanova ', 'Black Widow', 3511, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Carol ', 'Danvers', 'Captain Marvel', 6671, TRUE);
+INSERT INTO Avengers_Characters_Info (First_Name, Last_Name, Character_Name, Number_Of_Appearances, Current) VALUES ('Wanda', 'Maximoff', 'Scarlet Witch', 4511, TRUE);
+
+
+
+
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (1,'Good', 'Blue', 'White', 'Male', 'American', 1,1, 'http://marvel.wikia.com/Steven_Rogers_(Earth-616)', 'Since joining the New Avengers: First death Killed by Morlun. Ressurected in a brand new body. Died in Amazing Spider-Man #700. Eventually mainfested in his body that Octavious stole and then took over again.');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (2,'Neutral', 'White', 'Black', 'Male', 'American', 1,1, 'http://marvel.wikia.com/Anthony_Stark_(Earth-616)', 'Death: "Later while under the influence of Immortus Stark committed a number of horrible acts and was killed. This set up young Tony. Franklin Richards later brought him back');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (3,'Good', 'Hazel', 'Brown', 'Male', 'American', 1,1, 'http://marvel.wikia.com/Peter_Parker_(Earth-616)#', 'Since joining the New Avengers: First death Killed by Morlun. Ressurected in a brand new body. Died in Amazing Spider-Man #700. Eventually mainfested in his body that Octavious stole and then took over again.');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (4,'Good', 'Blue', 'Blond', 'Male', 'Asgardian', 1,1, 'http://marvel.wikia.com/Thor_Odinson_(Earth-616)', 'Dies in Fear Itself brought back because thats kind of the whole point. Second death in Time Runs Out has not yet returned');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (5,'Good', 'Blue', 'No', 'Male', 'American', 1,1, 'http://marvel.wikia.com/Benjamin_Grimm_(Earth-616)#', 'Once killed during a battle with Doctor Doom. Brought back by the FF when they literally went to Heaven to get him.');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (9,'Good', 'Blue', 'Blonde', 'Female', 'American', 1,1, 'https://marvel.wikia.com/Carol_Danvers_(Earth-616)', '');
+INSERT INTO Avengers_Characteristics (Id, Alignment, Eye_Color, Hair_Color, Gender, Citizenship, Death, Return, URL, Notes) VALUES (10,'Good', 'Blue', 'Brown', 'Female', 'Serbian', 1,1, 'https://marvel.wikia.com/Wanda_Maximoff_(Earth-616)', '');
+
+
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (1, '01-03-1964', '1964', 'Marvel Comics', 'Joe Simon', 'Avengers, Avengers Unity Division, All-Winners Squad, Illuminati, Invaders, Landau, Luckman, and Lake, New Avengers, Project: Rebirth, Redeemers, S.H.I.E.L.D., Secret Avengers, Secret Defenders, U.S. Army, New York City Police Department');;
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (2, '01-03-1963', '1963', 'Marvel Comics', 'Stan Lee', 'Avengers, A.I. Army, Department of Defense, Force Works, New Avengers, Guardians of the Galaxy, Illuminati, Mighty Avengers, S.H.I.E.L.D., Stark Industries, Stark Resilient, Thunderbolts');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (3, '01-08-1962', '1962', 'Marvel Comics', 'Stan Lee', 'Avengers, Fantastic Four, Defenders, Future Foundation, Daily Bugle, Jean Grey School for Higher Learning, League of Realms, Mighty Avengers, New Avengers, S.H.I.E.L.D., Spider-Army / Web-Warriors');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (4, '01-11-1950', '1950', 'Marvel Comics', 'Stan Lee', 'Avengers, Warriors Three, Thor Corps, God Squad, Avengers Unity Squad');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (5, '01-11-1961', '1961', 'Marvel Comics', 'Stan Lee', 'Fantastic Four, Avengers, Future Foundation, UCWF, West Coast Avengers, Thunderiders, Yancy Street Gang, New Avengers, Guardians of the Galaxy, The Worthy');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (6, '01-02-1973', '1973', 'Marvel Comics', '	Jim Starlin', 'Infinity Watch, Black Order');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (7, '01-10-1962', '1962', 'Marvel Comics', 'Stan Lee', 'Acts of Vengeance, Astonishing Avengers, Cabal, Young Avengers');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (8, '01-04-1964', '1964', 'Marvel Comics', 'Stan Lee', 'Avengers, Champions, Heroes for Hire, KGB, Marvel Knights, Mighty Avengers, Lady Liberators, Secret Avengers, S.H.I.E.L.D., Thunderbolts');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (9, '01-03-1968', '1968', 'Marvel Comics', 'Roy Thomas', 'Alpha Flight, Ultimates, Alcoholics Anonymous,[19], Avengers, Alliance, Kree Accuser Corps; formerly War Avengers, A-Force, S.H.I.E.L.D., Guardians of the Galaxy, Mighty Avengers ');
+INSERT INTO Avengers_Publishing (Id,Date_Of_First_Appearance, Year_Of_First_Appearance, Publisher, Created_By, Teams) VALUES (10, '01-03-1964', '1964', 'Marvel Comics', 'Stan Lee', 'Avengers, Brotherhood of Mutants, Defenders, Hydra’s Avengers, Force Works, Lady Liberators, Seven Brides Of Set, Uncanny Avengers, West Coast Avengers');
+
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (1, 'Shield', '', 'Enhanced strength, speed, stamina, durability, agility, reflexes, senses, and mental processing via the super soldier serum, 
+Master martial artist and hand-to-hand combatant');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (2, 'Powered armor suit', '', 'Genius level intellect, Proficient scientist and engineer, Highly skilled martial artist and hand-to-hand combatant');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (3, 'Web Shooter', '', 'Genius intellect, Proficient scientist and inventor, Superhuman strength, speed, durability, agility, stamina, reflexes/reactions, coordination, balance and endurance, Precognitive spider-sense ability, cling to most solid surfaces and webbing ability');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (4, 'Hammer', '', 'Superhuman strength, speed, durability and longevity');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (5, '', '', 'Skilled street fighter and hand to hand combatant, Superhuman strength, stamina and durability');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (6, 'Double-Edged Sword', '', 'Superhuman strength, speed, stamina, durability, agility, and longevity, Superhuman physiology of Eternals, Skilled hand-to-hand combatant');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (7, 'Scepter', '', 'Master of manipulation and deceit, Superhuman strength, speed, durability, and longevity');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (8, 'Electroshock weapons', '', 'Expert tactician, hand-to-hand combatant and secret agent, Slowed aging, and enhanced immune system, Expert marksman and mastery of various other weapons');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (9, '', '', 'superhuman strength, stamina, durability, and agility. Captain Marvel can also fly at great speeds, well beyond the sound barrier');
+INSERT INTO Avengers_SuperPowers (Id, Primary_Weapon, Secondary_Weapons, Super_Powers) VALUES (10, 'Magic Reality Warping', '', 'Scientifically enhanced magical abilities, Reality warping, Probability manipulation, Teleportation, Matter manipulation');
+
+
+
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Captain America: The First Avenger', '2011-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Captain America: Civil War', '2016-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Captain America: The Winter Soldier', '2014-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'Avengers: Age of Ultron', '2015-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (1,'The Avengers', '2012-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Iron Man 3', '2013-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Iron Man 2', '2010-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Iron Man', '2008-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'Avengers: Age of Ultron', '2015-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (2,'The Avengers', '2012-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (3,'Spider-man: Homecoming', '2017-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (3,'Spider-man: Far from Home', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (3,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (3,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Thor', '2011-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Thor: Ragnarok', '2017-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Thor: The Dark World', '2013-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Thor: Love and Thunder', '2022-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (4,'Avengers: Age of Ultron', '2015-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (6,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (6,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (6,'Avengers: Age of Ultron', '2015-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (6,'Guardians of the Galaxy', '2014-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (6,'The Avengers', '2012-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (9,'Captain Marvel', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (9,'Avengers: Endgame', '2019-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (7,'Avengers: Infinity War', '2018-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (5,'The Thing', '1982-01-01 00:00:00.000' );
+INSERT INTO Avengers_Moviebase (Id, Movie_Name, Year_Of_Release) VALUES (10,'Scarlet's Witch', '2014-01-01 00:00:00.000' );
+
+
+
+
+
+
+
+
+
+
